@@ -330,7 +330,7 @@
             {
               "type": "Double",
               "endpoint": 1,
-              "cluster": "0403_PressureMeasurement",
+              "cluster": "0402_TemperatureMeasurement",
               "attribute": "0340_Custom",
               "scale": 0.01
             }
