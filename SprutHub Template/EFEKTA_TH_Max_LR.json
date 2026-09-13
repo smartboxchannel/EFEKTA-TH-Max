@@ -103,13 +103,13 @@
           "endpoint": 1,
           "cluster": "0405_RelativeHumidityMeasurement",
           "attribute": "0221_Custom",
-          "zclDataType": "SIGNED_16_BIT_INTEGER"
+          "zclDataType": "UNSIGNED_16_BIT_INTEGER"
         },
         {
           "endpoint": 1,
           "cluster": "0405_RelativeHumidityMeasurement",
           "attribute": "0222_Custom",
-          "zclDataType": "SIGNED_16_BIT_INTEGER"
+          "zclDataType": "UNSIGNED_16_BIT_INTEGER"
         }
       ]
     },
@@ -332,7 +332,7 @@
               "endpoint": 1,
               "cluster": "0403_PressureMeasurement",
               "attribute": "0340_Custom",
-              "inFunc": "value*0.01333"
+              "scale": 0.01
             }
           ]
         }
